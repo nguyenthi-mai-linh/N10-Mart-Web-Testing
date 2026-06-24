@@ -1,0 +1,8 @@
+ma_tc,tu_khoa,ket_qua_mong_doi
+TK-01,mì,success
+TK-01,bánh,success
+TK-01,nước,success
+
+TK-03,xyzkhongtontai12345,error_not_found
+TK-03,abc999999,error_not_found
+TK-03,testkhongco,error_not_found

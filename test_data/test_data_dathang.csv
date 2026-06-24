@@ -1,0 +1,18 @@
+ho_ten,email,dia_chi,hinh_thuc_thanh_toan,ket_qua_mong_doi
+Nguyen Van A,test@gmail.com,123 Le Loi Ha Noi,cod,success_cod
+Nguyen Van B,test2@gmail.com,123 ABC,cod,success_cod
+
+Le Van C,lec@gmail.com,789 Nguyen Hue HCM,bank,success_bank
+Tran Van C,bank@gmail.com,456 XYZ,bank,success_bank
+
+,test@gmail.com,123 Le Loi Ha Noi,cod,error_empty_hoten
+,test2@gmail.com,123 ABC,cod,error_empty_hoten
+
+Nguyen Van A,,123 Le Loi Ha Noi,cod,error_empty_email
+Nguyen Van B,,456 XYZ,cod,error_empty_email
+
+Nguyen Van A,test@gmail.com,,cod,error_empty_diachi
+Nguyen Van C,test2@gmail.com,,cod,error_empty_diachi
+
+Nguyen Van A,emailsaidinhdang,123 Le Loi Ha Noi,cod,error_email_format
+Nguyen Van B,abc,123 XYZ,cod,error_email_format

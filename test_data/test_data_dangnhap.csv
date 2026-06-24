@@ -1,0 +1,14 @@
+ma_tc,username,password,ket_qua_mong_doi
+DN-01,admin,123456,success
+DN-01,mi,Test@123456,success
+DN-01,chi,Test@123456,success
+
+DN-02,,Test@123456,error_empty_username
+
+DN-03,testuser,,error_empty_password
+
+DN-04,userkhongtontai001,test123456,error_not_exist
+DN-04,userkhongtontai002,test123456,error_not_exist
+
+DN-05,mi,saimatkhau001,error_wrong_password
+DN-05,chi,saimatkhau002,error_wrong_password
